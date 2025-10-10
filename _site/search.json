@@ -1,0 +1,163 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mayank Lal",
+    "section": "",
+    "text": "Hello World!\nI’m Mayank, a Senior Data Scientist and Amateur Quantitative Storyteller.\nI work on quantitative risk models, integrating behavioral and macroeconomic factors into risk frameworks. My focus areas are credit risk modelling (PD/LGD/EAD), regulatory analytics (CCAR/CECL/IFRS9), climate risk stress testing and portfolio analytics.\nIn my spare time, I try to weave stories using data, numbers and charts. This website is my attempt at creating a repository of my life using open source tools to be free from dictates of algorithms, vagaries of online platforms, and hustle culture of NPCs."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Mayank Lal",
+    "section": "",
+    "text": "Hi, I’m Mayank, a Senior Data Scientist at EXL.\nI work on quantitative risk models, integrating behavioral and macroeconomic factors into risk frameworks. My focus areas are credit risk modelling (PD/LGD/EAD), regulatory analytics (CCAR/CECL/IFRS9), climate risk stress testing and portfolio analytics."
+  },
+  {
+    "objectID": "hobbies.html",
+    "href": "hobbies.html",
+    "title": "Pi",
+    "section": "",
+    "text": "Random musings about books, movies, comics, travel, and more."
+  },
+  {
+    "objectID": "diy.html",
+    "href": "diy.html",
+    "title": "Assemblies",
+    "section": "",
+    "text": "Receipes of my creations."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Computes",
+    "section": "",
+    "text": "Repository of my Quantitative Projects."
+  },
+  {
+    "objectID": "essays.html",
+    "href": "essays.html",
+    "title": "Reveries",
+    "section": "",
+    "text": "Narrative and Numbers."
+  },
+  {
+    "objectID": "viz.html",
+    "href": "viz.html",
+    "title": "Pixels",
+    "section": "",
+    "text": "Storytelling through Pixels."
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "Mayank Lal",
+    "section": "💼 Experience",
+    "text": "💼 Experience\n\nSenior Credit Risk Model Developer, EXL (2020 – Present)\nLead redevelopment of recovery and LGD models, integrating GAMs and stress-testing frameworks.\nCredit Risk Analyst, [Previous Org] (2015 – 2020)\nBuilt portfolio-level early warning systems and stress-test models."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Mayank Lal",
+    "section": "🎓 Education",
+    "text": "🎓 Education\n\nMBA (Finance & Analytics) — Indian Institute of Management Tiruchirappalli, 2019\nGPA: 3.25 / 4.33\n\nB.Tech (Computer Science) — GNDEC, 2014\nPercentage: 74.2 %"
+  },
+  {
+    "objectID": "about.html#interests",
+    "href": "about.html#interests",
+    "title": "Mayank Lal",
+    "section": "🧩 Interests",
+    "text": "🧩 Interests\nCredit Risk Analytics | Portfolio Optimization | Public Policy"
+  },
+  {
+    "objectID": "content/hobbies.html",
+    "href": "content/hobbies.html",
+    "title": "Pi",
+    "section": "",
+    "text": "Random musings about books, movies, comics, travel, and more."
+  },
+  {
+    "objectID": "content/diy.html",
+    "href": "content/diy.html",
+    "title": "Assemblies",
+    "section": "",
+    "text": "Receipes of my creations."
+  },
+  {
+    "objectID": "content/projects.html",
+    "href": "content/projects.html",
+    "title": "Computes",
+    "section": "",
+    "text": "Repository of my Quantitative Projects."
+  },
+  {
+    "objectID": "content/essays.html",
+    "href": "content/essays.html",
+    "title": "Reveries",
+    "section": "",
+    "text": "Narrative and Numbers."
+  },
+  {
+    "objectID": "content/viz.html",
+    "href": "content/viz.html",
+    "title": "Pixels",
+    "section": "",
+    "text": "Storytelling through Pixels."
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "Mayank Lal",
+    "section": "🧠 Skills",
+    "text": "🧠 Skills\n\nModeling: Logistic Regression, Time Series Forecasting, NLP, Machine Learning\n\nTools: SAS, R, Python, SQL\n\nCloud & Versioning: AWS, Azure, GitHub\n\nSoft Skills: Communication, Mentoring, Storytelling with Data"
+  },
+  {
+    "objectID": "about.html#awards",
+    "href": "about.html#awards",
+    "title": "Mayank Lal",
+    "section": "🏆 Awards",
+    "text": "🏆 Awards\n\nPioneer Award, EXL 2024\nCITI ACE Award, CITI 2024"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Mayank Lal",
+    "section": "💼 Experience",
+    "text": "💼 Experience\n\nSenior Data Scientist, EXL (2022 – Present)\nLogistic Regression, Begg and Gray, State Transition Matrix, Clustering, Decision Trees, Two-stage Hurdle Models\nData Scientist, L&T Construction (2019 – 2021)\nARIMA, GAM, NLP, Automation\nSoftware Engineer, L&T Construction (2014 – 2017)\nQuery Optimization, Outlier Detection, Data Processing"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Mayank Lal",
+    "section": "🎓 Education",
+    "text": "🎓 Education\n\nMBA (Finance & Analytics) — Indian Institute of Management Tiruchirappalli, 2019\nGPA: 3.25 / 4.33\n\nB.Tech (Computer Science) — GNDEC Ludhiana, 2014\nPercentage: 74.2 % —"
+  },
+  {
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "Mayank Lal",
+    "section": "🧠 Skills",
+    "text": "🧠 Skills\n\nModeling: Regression, Time Series Forecasting, NLP, Machine Learning\n\nTools: SAS, R, Python, SQL, Bash, Linux, C++\nCloud & Versioning: AWS, Azure, GitHub\n\nSoft Skills: Communication, Mentoring, Storytelling with Data"
+  },
+  {
+    "objectID": "index.html#awards",
+    "href": "index.html#awards",
+    "title": "Mayank Lal",
+    "section": "🏆 Awards",
+    "text": "🏆 Awards\n\nPioneer Award, EXL 2024\nCITI ACE Award, CITI 2024"
+  },
+  {
+    "objectID": "index.html#interests",
+    "href": "index.html#interests",
+    "title": "Mayank Lal",
+    "section": "🧩 Interests",
+    "text": "🧩 Interests\nOSS | Economics | Public Policy | Film Making | Creative Writing | Gaming"
+  },
+  {
+    "objectID": "index.html#certification",
+    "href": "index.html#certification",
+    "title": "Mayank Lal",
+    "section": "📜 Certification",
+    "text": "📜 Certification\n\nFRM - Level 2 Candidate\nQuantitative Analyst in R - Data Camp\nPractical Time Series Analysis - The State University of New York\nAzure Data Fundamentals - Microsoft\nAzure AI Fundamentals - Microsoft"
+  }
+]

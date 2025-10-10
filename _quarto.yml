@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Mayank Lal"
+  site-url: "https://mayanklal.com"
+  description: "Data Scientist | Risk Modeling | Finance | Storytelling"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Root
+      - href: content/projects.qmd
+        text: Computes
+      - href: content/essays.qmd
+        text: Reveries
+      - href: content/diy.qmd
+        text: Assemblies
+      - href: content/viz.qmd
+        text: Pixels
+      - href: content/hobbies.qmd
+        text: Pi
+       
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    smooth-scroll: true
+    toc: false
+
+
+
