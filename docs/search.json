@@ -11,7 +11,7 @@
     "href": "index.html#experience",
     "title": "Mayank Lal",
     "section": "💼 Experience",
-    "text": "💼 Experience\n\nSenior Data Scientist, EXL (2022 – Present)\nLogistic Regression, Begg and Gray, State Transition Matrix, Clustering, Decision Trees, Two-stage Hurdle Models\nData Scientist, L&T Construction (2019 – 2021)\nARIMA, GAM, NLP, Automation\nSoftware Engineer, L&T Construction (2014 – 2017)\nQuery Optimization, Outlier Detection, Data Processing"
+    "text": "💼 Experience\n\nSenior Data Scientist, EXL (2022 – Present)\nLogistic Regression, Begg and Gray, State Transition Matrix, Clustering, Decision Trees, Two-stage Hurdle Models\nData Scientist, L&T Construction (2019 – 2021)\nARIMA, GAM, NLP, Automation\nSoftware Engineer, Infosys Limited (2014 – 2017)\nQuery Optimization, Outlier Detection, Data Processing"
   },
   {
     "objectID": "index.html#education",
@@ -32,7 +32,7 @@
     "href": "index.html#skills",
     "title": "Mayank Lal",
     "section": "🧠 Skills",
-    "text": "🧠 Skills\n\nModeling: Regression, Time Series Forecasting, NLP, Machine Learning\n\nTools: SAS, R, Python, SQL, Bash, Linux, C++\nCloud & Versioning: AWS, Azure, GitHub\n\nSoft Skills: Communication, Mentoring, Storytelling with Data"
+    "text": "🧠 Skills\n\nModeling: Regression, Time Series Forecasting, NLP, Machine Learning\n\nTools: SAS, R, Python, SQL, Bash, Linux\nCloud & Versioning: AWS, Azure, GitHub\n\nSoft Skills: Communication, Mentoring, Storytelling with Data"
   },
   {
     "objectID": "index.html#awards",
@@ -47,5 +47,40 @@
     "title": "Mayank Lal",
     "section": "🧩 Interests",
     "text": "🧩 Interests\nOSS | Economics | Public Policy | Film Making | Creative Writing | Gaming"
+  },
+  {
+    "objectID": "content/hobbies.html",
+    "href": "content/hobbies.html",
+    "title": "Pi",
+    "section": "",
+    "text": "Random musings about books, movies, comics, travel, and more."
+  },
+  {
+    "objectID": "content/diy.html",
+    "href": "content/diy.html",
+    "title": "Assemblies",
+    "section": "",
+    "text": "Receipes of my creations."
+  },
+  {
+    "objectID": "content/projects.html",
+    "href": "content/projects.html",
+    "title": "Computes",
+    "section": "",
+    "text": "Repository of my Quantitative Projects."
+  },
+  {
+    "objectID": "content/essays.html",
+    "href": "content/essays.html",
+    "title": "Reveries",
+    "section": "",
+    "text": "Narrative and Numbers."
+  },
+  {
+    "objectID": "content/viz.html",
+    "href": "content/viz.html",
+    "title": "Pixels",
+    "section": "",
+    "text": "Storytelling through Pixels."
   }
 ]

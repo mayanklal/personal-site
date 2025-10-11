@@ -41,7 +41,7 @@ In my spare time, I try to weave stories using data, numbers and charts. This we
 - **Data Scientist**, L&T Construction *(2019 – 2021)*  
   _ARIMA, GAM, NLP, Automation_
 
-- **Software Engineer**, L&T Construction *(2014 – 2017)*  
+- **Software Engineer**, Infosys Limited *(2014 – 2017)*  
   _Query Optimization, Outlier Detection, Data Processing_
 
 ---
@@ -69,7 +69,7 @@ In my spare time, I try to weave stories using data, numbers and charts. This we
 ## 🧠 Skills
 
 - **Modeling:** Regression, Time Series Forecasting, NLP, Machine Learning   
-- **Tools:** SAS, R, Python, SQL, Bash, Linux, C++
+- **Tools:** SAS, R, Python, SQL, Bash, Linux
 - **Cloud & Versioning:** AWS, Azure, GitHub  
 - **Soft Skills:** Communication, Mentoring, Storytelling with Data
 
@@ -84,4 +84,4 @@ In my spare time, I try to weave stories using data, numbers and charts. This we
 
 ## 🧩 Interests
 
-OSS  |  Economics  |  Public Policy | Film Making | Creative Writing | Gaming 
+OSS  |  Economics  |  Public Policy | Film Making | Creative Writing | Gaming

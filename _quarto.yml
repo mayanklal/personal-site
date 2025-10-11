@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Mayank Lal"
+  favicon: static/icons/logo_favicon_512.png
   site-url: "https://mayanklal.com"
   description: "Data Scientist | Risk Modeling | Finance | Storytelling"
   navbar:
@@ -24,7 +25,13 @@ website:
 
 format:
   html:
-    theme: flatly
+    theme: 
+      light: flatly
+      dark: darkly
+    toggle:
+      icon: moon-stars
+      placement: right
+      style: link
     css: styles.css
     smooth-scroll: true
     toc: false
