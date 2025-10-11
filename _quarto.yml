@@ -10,21 +10,25 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Root
+        text: "Root"
       - href: content/projects.qmd
-        text: Computes
+        text: "Computes"
       - href: content/essays.qmd
-        text: Reveries
+        text: "Reveries"
       - href: content/diy.qmd
-        text: Assemblies
+        text: "Assemblies"
       - href: content/viz.qmd
-        text: Pixels
+        text: "Pixels"
       - href: content/hobbies.qmd
-        text: Pi
+        text: "π"
        
 
 format:
   html:
+    css: assets/css/styles.css
+    include-in-header:
+      - text: |
+          <script src="assets/js/tooltip.js"></script>
     theme: 
       light: flatly
       dark: darkly
@@ -32,7 +36,6 @@ format:
       icon: moon-stars
       placement: right
       style: link
-    css: styles.css
     smooth-scroll: true
     toc: false
 

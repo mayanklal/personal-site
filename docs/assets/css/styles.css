@@ -32,30 +32,30 @@
 
 /* Root */
 .navbar a:contains("Root")::after {
-  content: "About Me";
+  content: "Home / About Me";
 }
 
 /* Computes */
 .navbar a:contains("Computes")::after {
-  content: "Projects";
+  content: "Data, Code & Analytics";
 }
 
 /* Reveries */
 .navbar a:contains("Reveries")::after {
-  content: "Essays";
+  content: "Essays & Reflections";
 }
 
 /* Pixels */
 .navbar a:contains("Pixels")::after {
-  content: "Graphs";
+  content: "Data Visuals & Graphics";
 }
 
 /* Assemblies */
 .navbar a:contains("Assemblies")::after {
-  content: "DIYs";
+  content: "DIY Builds & Projects";
 }
 
 /* π */
 .navbar a:contains("π")::after {
-  content: "Random Walks";
+  content: "Random Musings";
 }
