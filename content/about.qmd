@@ -1,83 +1,23 @@
 ---
-title: "Mayank Lal"
-subtitle: "Senior Data Scientist"
-image: assets/media/images/profile.jpg
-page-layout: full
-toc: false
-about:
-    template: trestles  
-    image-shape: round
-    image-width: 12em
-    links:
-    - icon: envelope-at-fill
-      text: "Email"
-      href: "mailto:mayank.p17034@iimtrichy.ac.in"
-    - icon: github
-      text: "GitHub"
-      href: "https://github.com/mayanklal"
-    - icon: linkedin
-      text: "LinkedIn"
-      href: "https://linkedin.com/in/mayanklal07"
-    - icon: twitter-x
-      href: "https://x.com/MayankLal7"
+title: "The Root of Me"
+date: "2025-10-14"
+format:
+  html:
+    toc: false
+    css: 
+      - /assets/css/styles.css   
+      - /assets/css/essays.css 
 ---
+_“Well, I have a trade of my own. I suppose I am the only one in the world. I’m a consulting detective, if you can understand what that is.”_
 
-Hello World!
+For a long time, I have drifted through streams of time, looking for a shore to drop my anchor in. During my engineering days at **GNDEC, Ludhiana**, I thought that my soul belonged to the digital world of 0s and 1s. But over the course of time, it dawned on me that I had romanticized the digital world of 0s and 1s for cold, economic reasons. For me, they were nothing more than tools of creation. My search for the shore continued.
 
-I’m a Senior Data Scientist at EXL.
+This search slowly turned into a pursuit of knowledge about the inner workings of our modern world and led me to **IIM Trichy**. At IIM Trichy, I rediscovered my passion for numbers, this time in the form of analytics. This rediscovery led me to a crossroad where I had to decide between Operations and Finance as my specialization in the second year of my MBA. The sheer monotony of Operations and the siren call of Finance made the choice easy for me. But the journey afterwards has certainly not been an easy one.
 
-I work on quantitative risk models, integrating behavioral and macroeconomic factors into risk frameworks. My focus areas are credit risk modelling (PD/EAD/LGD), regulatory analytics (CCAR/CECL/IFRS9), climate risk stress testing and portfolio analytics.
+My journey with Finance began on an adversarial note. The bureaucratic language that envelops every pore of Finance and the imprudence of accounting laws came very close to making me give up on it. But then, by the invisible hands of fate and my own ego, I found myself in a Valuations class. And like a classic enemies-to-lovers trope, I fell in love with Finance. To be more precise, I fell in love with the way numbers can be used to tell and understand the stories of businesses, nations, the world, and our own selves. That was when I knew that I had found my shore.
 
----
+For helping me find my shore, I will always be grateful to my professors at IIM Trichy, particularly **Vinu C.T., Saumen Majumdar, Narahari Hansoge, and Alka Chadha**.
 
-## 💼 Experience
+This website is my attempt at anchoring myself to my shore — the shore where I can be independent of the dictates of algorithms, the vagaries of online platforms, and the hustle culture of NPCs. It is my attempt to be free and to share quantitative stories that intrigue, influence, and inspire me. 
 
-- **Senior Data Scientist**, EXL *(2022 – Present)*  
-  _Logistic Regression, Begg and Gray, State Transition Matrix, Clustering, Decision Trees, Two-stage Hurdle Models_
-
-- **Data Scientist**, L&T Construction *(2019 – 2021)*  
-  _ARIMA, GAM, NLP, Automation_
-
-- **Software Engineer**, Infosys Limited *(2014 – 2017)*  
-  _Query Optimization, Outlier Detection, Data Processing_
-
----
-
-## 🎓 Education
-
-- **MBA (Finance & Analytics)** — *IIM Tiruchirappalli*, 2019
-- **B.Tech (Computer Science)** — *GNDEC Ludhiana*, 2014
-  
----
-
-
-## 📜 Certification
-
-- **FRM** - Level 2 Candidate
-- **Quantitative Analyst in R** - Data Camp
-- **Practical Time Series Analysis** - The State University of New York
-- **Azure Data Fundamentals** - Microsoft
-- **Azure AI Fundamentals** - Microsoft
-  
----
-
-
-## 🧠 Skills
-
-- **Modeling:** Regression, Time Series Forecasting, NLP, Machine Learning   
-- **Tools:** SAS, R, Python, SQL, Bash, Linux
-- **Cloud & Versioning:** AWS, Azure, GitHub  
-- **Soft Skills:** Communication, Mentoring, Storytelling with Data
-
----
-
-## 🏆 Awards
-
-- *Pioneer Award*, EXL 2024
-- *CITI ACE Award*, CITI 2024 
-
----
-
-## 🧩 Interests
-
-OSS  |  Economics  |  Public Policy | Film Making | Creative Writing | Gaming
+Hoping that, unlike my previous attempts, I will not get lost to the time and mind storms of my own making.

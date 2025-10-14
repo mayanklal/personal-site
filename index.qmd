@@ -16,7 +16,7 @@ I work on quantitative risk models, integrating behavioral and macroeconomic fac
   _ARIMA, GAM, NLP, Automation_
 
 - **Software Engineer**, Infosys Limited *(2014 – 2017)*  
-  _Query Optimization, Outlier Detection, Data Processing_
+  _Data Processing & Cleaning, Reporting, Query Optimization_
 
 
 ## Education
