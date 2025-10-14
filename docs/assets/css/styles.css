@@ -59,3 +59,133 @@
 .navbar a:contains("π")::after {
   content: "Random Musings";
 }
+
+/* ------------------------------------------
+   Fix for Bootstrap .navbar-nav-scroll Vertical Stack
+   ------------------------------------------ */
+/* Force horizontal flex layout */
+.navbar {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+/* Center the entire navbar content block */
+.navbar > .navbar-container {
+  max-width: 1124px;   /* adjust for your preferred width */
+  min-width: 300px;
+}
+
+/* Navbar brand (your name) */
+.navbar .navbar-brand-container .navbar-brand {
+  font-weight: 600;
+  color: #ecf0f1 !important;
+  text-align: left;
+}
+
+/* Keep the navbar expanded and horizontal */
+.navbar .navbar-collapse {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap; /* lets entire row move down when narrow */
+}
+
+/* Hide hamburger icon */
+.navbar-toggler {
+  display: none !important;
+}
+
+/* Force horizontal layout for main navigation */
+.navbar-nav.navbar-nav-scroll {
+  flex-direction: row !important;
+  align-items: center !important;
+  overflow: visible !important; /* disables scroll container behavior */
+}
+
+/* Prevent .me-auto from pushing items awkwardly when wrapping */
+.navbar-nav.me-auto {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  justify-content: center !important;
+}
+
+/* Make links evenly spaced and centered */
+.navbar-nav {
+  justify-content: center;
+}
+
+/* Ensure the entire navbar stays horizontal by default */
+.navbar .navbar-collapse {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* On small screens: Center the brand name and navigation tabs */
+@media (max-width: 1024px) {
+  .navbar .navbar-container,
+  .navbar .navbar-brand-container {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .navbar .navbar-brand {
+    margin: 0 auto;
+    display: inline-block;
+  }
+
+  .navbar .navbar-collapse .navbar-brand {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-nav {
+    justify-content: center;
+    width: 100%;
+  }
+
+  /* Align social media icons in row instead of default column */
+  .about-links {
+    display: flex !important;
+    flex-direction: row !important;   /* horizontal layout on mobile */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.6rem;
+  }
+}
+
+/* ------------------------------------------
+   Unified Responsive Width for Navbar & Grid
+   ------------------------------------------ */
+
+/* Responsive, centered layout */
+.quarto-container.page-columns.page-rows-contents.page-layout-article.page-navbar,
+.grid,
+.navbar-container.container-fluid {
+  width: 100%;
+  /* clamp(minimum, preferred, maximum) */
+  max-width: clamp(320px, 90%, 1060px);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  box-sizing: border-box;
+}
+
+
+
+/* Profile image (circular and fixed size) */
+.rounded-circle {
+  width: 232px !important;
+  height: 232px !important;
+  border-radius: 50% !important;
+  object-fit: cover;   /* keeps proportions */
+  display: block;
+  margin-left: auto;   /* aligns right within its column */
+  margin-right: 0;
+  max-width: none !important;   /* override img-fluid */
+}
+
+

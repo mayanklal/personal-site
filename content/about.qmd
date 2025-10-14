@@ -1,13 +1,36 @@
-::: {.grid}
-::: {.g-col-9}
+---
+title: "Mayank Lal"
+subtitle: "Senior Data Scientist"
+image: assets/media/images/profile.jpg
+page-layout: full
+toc: false
+about:
+    template: trestles  
+    image-shape: round
+    image-width: 12em
+    links:
+    - icon: envelope-at-fill
+      text: "Email"
+      href: "mailto:mayank.p17034@iimtrichy.ac.in"
+    - icon: github
+      text: "GitHub"
+      href: "https://github.com/mayanklal"
+    - icon: linkedin
+      text: "LinkedIn"
+      href: "https://linkedin.com/in/mayanklal07"
+    - icon: twitter-x
+      href: "https://x.com/MayankLal7"
+---
 
 Hello World!
 
-I’m a data scientist and quantitative developer passionate about telling stories about businesses, economy, and nations using financial data and open source tools.
+I’m a Senior Data Scientist at EXL.
 
 I work on quantitative risk models, integrating behavioral and macroeconomic factors into risk frameworks. My focus areas are credit risk modelling (PD/EAD/LGD), regulatory analytics (CCAR/CECL/IFRS9), climate risk stress testing and portfolio analytics.
 
-## Experience
+---
+
+## 💼 Experience
 
 - **Senior Data Scientist**, EXL *(2022 – Present)*  
   _Logistic Regression, Begg and Gray, State Transition Matrix, Clustering, Decision Trees, Two-stage Hurdle Models_
@@ -18,40 +41,43 @@ I work on quantitative risk models, integrating behavioral and macroeconomic fac
 - **Software Engineer**, Infosys Limited *(2014 – 2017)*  
   _Query Optimization, Outlier Detection, Data Processing_
 
+---
 
-## Education
+## 🎓 Education
 
 - **MBA (Finance & Analytics)** — *IIM Tiruchirappalli*, 2019
 - **B.Tech (Computer Science)** — *GNDEC Ludhiana*, 2014
+  
+---
 
 
-## Certification
+## 📜 Certification
 
 - **FRM** - Level 2 Candidate
 - **Quantitative Analyst in R** - Data Camp
 - **Practical Time Series Analysis** - The State University of New York
 - **Azure Data Fundamentals** - Microsoft
 - **Azure AI Fundamentals** - Microsoft
+  
+---
 
 
-## Skills
+## 🧠 Skills
 
 - **Modeling:** Regression, Time Series Forecasting, NLP, Machine Learning   
 - **Tools:** SAS, R, Python, SQL, Bash, Linux
 - **Cloud & Versioning:** AWS, Azure, GitHub  
 - **Soft Skills:** Communication, Mentoring, Storytelling with Data
 
-## Awards
+---
+
+## 🏆 Awards
 
 - *Pioneer Award*, EXL 2024
 - *CITI ACE Award*, CITI 2024 
 
-## Interests
+---
+
+## 🧩 Interests
 
 OSS  |  Economics  |  Public Policy | Film Making | Creative Writing | Gaming
-
-:::
-::: {.g-col-3} 
-![](assets/media/images/profile.jpg){.rounded-circle}
-:::
-:::

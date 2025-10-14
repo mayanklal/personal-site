@@ -4,12 +4,13 @@ project:
 
 website:
   title: "Mayank Lal"
+  search: false
   favicon: static/icons/logo_favicon_512.png
   site-url: "https://mayanklal.com"
   description: "Data Scientist | Risk Modeling | Finance | Storytelling"
   navbar:
-    left:
-      - href: index.qmd
+    right:
+      - href: content/about.qmd
         text: "Root"
       - href: content/projects.qmd
         text: "Computes"
@@ -21,7 +22,9 @@ website:
         text: "Pixels"
       - href: content/hobbies.qmd
         text: "π"
-       
+  page-footer: 
+    center: "Powered by Quarto. Mayank Lal © 2025" 
+    
 
 format:
   html:
@@ -29,13 +32,7 @@ format:
     include-in-header:
       - text: |
           <script src="assets/js/tooltip.js"></script>
-    theme: 
-      light: flatly
-      dark: darkly
-    toggle:
-      icon: moon-stars
-      placement: right
-      style: link
+    theme: flatly
     smooth-scroll: true
     toc: false
 

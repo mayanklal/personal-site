@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mayanklal.com/index.html</loc>
-    <lastmod>2025-10-11T08:47:38.521Z</lastmod>
+    <lastmod>2025-10-14T13:32:44.426Z</lastmod>
   </url>
   <url>
     <loc>https://mayanklal.com/content/hobbies.html</loc>
@@ -14,7 +14,7 @@
   </url>
   <url>
     <loc>https://mayanklal.com/content/projects.html</loc>
-    <lastmod>2025-10-10T11:17:41.502Z</lastmod>
+    <lastmod>2025-10-11T15:37:50.167Z</lastmod>
   </url>
   <url>
     <loc>https://mayanklal.com/content/essays.html</loc>
@@ -23,5 +23,9 @@
   <url>
     <loc>https://mayanklal.com/content/viz.html</loc>
     <lastmod>2025-10-10T06:25:32.120Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mayanklal.com/content/about.html</loc>
+    <lastmod>2025-10-14T10:11:40.597Z</lastmod>
   </url>
 </urlset>
