@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Mayank Lal"
+  title: "Mayank Lal / Divinations on Deviations"
   search: false
   favicon: static/icons/logo_favicon_512.png
   site-url: "https://mayanklal.com"
