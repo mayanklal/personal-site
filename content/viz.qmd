@@ -1,5 +1,10 @@
 ---
 title: "Pixels"
+format:
+  html:
+    css: 
+      - /assets/css/styles.css   
+      - /assets/css/essays.css 
 ---
 
 Storytelling through Pixels.

@@ -1,5 +1,10 @@
 ---
 title: "Pi"
+format:
+  html:
+    css: 
+      - /assets/css/styles.css   
+      - /assets/css/essays.css 
 ---
 
 Random musings about books, movies, comics, travel, and more.
