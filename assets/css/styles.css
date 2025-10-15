@@ -169,8 +169,8 @@
   max-width: clamp(320px, 90%, 1060px);
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 0;
+  padding-right: 0;
   box-sizing: border-box;
 }
 
@@ -204,6 +204,26 @@
     order: -1; /* ensure image appears first */
     display: block;
     margin: 0 auto 1.5rem auto; /* center image only */
+  }
+
+  .navbar,
+  .navbar-container,
+  .navbar-container.container-fluid {
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .quarto-container,
+  .page-columns,
+  .grid,
+  main.content {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
   }
 }
 
@@ -297,3 +317,5 @@ blockquote {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: none;
 }
+
+

@@ -23,7 +23,7 @@ website:
       - href: content/hobbies.qmd
         text: "π"
   page-footer: 
-    center: "Powered by Quarto. Mayank Lal © 2025" 
+    right: "Powered by Quarto. Mayank Lal © 2025" 
     
 
 format:
