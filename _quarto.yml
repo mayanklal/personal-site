@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Mayank Lal / Divinations on Deviations"
+  title: "Mayank Lal"
   search: false
   favicon: static/icons/logo_favicon_512.png
   site-url: "https://mayanklal.com"
@@ -23,15 +23,15 @@ website:
       - href: content/hobbies.qmd
         text: "π"
   page-footer: 
-    right: "Powered by Quarto. Mayank Lal © 2025" 
+    center: "Powered by Quarto. Mayank Lal © 2025" 
     
 
 format:
   html:
-    css: assets/css/styles.css
+    css: /assets/css/styles.css
     include-in-header:
       - text: |
-          <script src="assets/js/tooltip.js"></script>
+          <script src="/assets/js/tooltip.js"></script>
       - text: |
           <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     theme: flatly

@@ -15,7 +15,7 @@ I work on quantitative risk models, integrating behavioral and macroeconomic fac
 - **Data Scientist**, L&T Construction *(2019 – 2021)*  
   _ARIMA, GAM, NLP, Automation_
 
-- **Software Engineer**, Infosys Limited *(2014 – 2017)*  
+- **Data Engineer**, Infosys Limited *(2014 – 2017)*  
   _Data Processing & Cleaning, Reporting, Query Optimization_
 
 

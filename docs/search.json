@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Mayank Lal",
     "section": "",
-    "text": "Hello World!\nI’m a data scientist and quantitative developer passionate about telling stories about businesses, economy, and nations using financial data and open source tools.\nI work on quantitative risk models, integrating behavioral and macroeconomic factors into risk frameworks. My focus areas are credit risk modelling (PD/EAD/LGD), regulatory analytics (CCAR/CECL/IFRS9), climate risk stress testing and portfolio analytics.\n\n\n\nSenior Data Scientist, EXL (2022 – Present)\nLogistic Regression, Begg and Gray, State Transition Matrix, Clustering, Decision Trees, Two-stage Hurdle Models\nData Scientist, L&T Construction (2019 – 2021)\nARIMA, GAM, NLP, Automation\nSoftware Engineer, Infosys Limited (2014 – 2017)\nData Processing & Cleaning, Reporting, Query Optimization\n\n\n\n\n\nMBA (Finance & Analytics) — IIM Tiruchirappalli, 2019\nB.Tech (Computer Science) — GNDEC Ludhiana, 2014\n\n\n\n\n\nFRM - Level 2 Candidate\nQuantitative Analyst in R - Data Camp\nPractical Time Series Analysis - The State University of New York\nAzure Data Fundamentals - Microsoft\nAzure AI Fundamentals - Microsoft\n\n\n\n\n\nModeling: Regression, Time Series Forecasting, NLP, Machine Learning\n\nTools: SAS, R, Python, SQL, Bash, Linux\nCloud & Versioning: AWS, Azure, GitHub\n\nSoft Skills: Communication, Mentoring, Storytelling with Data\n\n\n\n\n\nPioneer Award, EXL 2024\nCITI ACE Award, CITI 2024\n\n\n\n\nOSS | Economics | Public Policy | Film Making | Creative Writing | Gaming"
+    "text": "Hello World!\nI’m a data scientist and quantitative developer passionate about telling stories about businesses, economy, and nations using financial data and open source tools.\nI work on quantitative risk models, integrating behavioral and macroeconomic factors into risk frameworks. My focus areas are credit risk modelling (PD/EAD/LGD), regulatory analytics (CCAR/CECL/IFRS9), climate risk stress testing and portfolio analytics.\n\n\n\nSenior Data Scientist, EXL (2022 – Present)\nLogistic Regression, Begg and Gray, State Transition Matrix, Clustering, Decision Trees, Two-stage Hurdle Models\nData Scientist, L&T Construction (2019 – 2021)\nARIMA, GAM, NLP, Automation\nData Engineer, Infosys Limited (2014 – 2017)\nData Processing & Cleaning, Reporting, Query Optimization\n\n\n\n\n\nMBA (Finance & Analytics) — IIM Tiruchirappalli, 2019\nB.Tech (Computer Science) — GNDEC Ludhiana, 2014\n\n\n\n\n\nFRM - Level 2 Candidate\nQuantitative Analyst in R - Data Camp\nPractical Time Series Analysis - The State University of New York\nAzure Data Fundamentals - Microsoft\nAzure AI Fundamentals - Microsoft\n\n\n\n\n\nModeling: Regression, Time Series Forecasting, NLP, Machine Learning\n\nTools: SAS, R, Python, SQL, Bash, Linux\nCloud & Versioning: AWS, Azure, GitHub\n\nSoft Skills: Communication, Mentoring, Storytelling with Data\n\n\n\n\n\nPioneer Award, EXL 2024\nCITI ACE Award, CITI 2024\n\n\n\n\nOSS | Economics | Public Policy | Film Making | Creative Writing | Gaming"
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
     "title": "Mayank Lal",
     "section": "",
-    "text": "Senior Data Scientist, EXL (2022 – Present)\nLogistic Regression, Begg and Gray, State Transition Matrix, Clustering, Decision Trees, Two-stage Hurdle Models\nData Scientist, L&T Construction (2019 – 2021)\nARIMA, GAM, NLP, Automation\nSoftware Engineer, Infosys Limited (2014 – 2017)\nData Processing & Cleaning, Reporting, Query Optimization"
+    "text": "Senior Data Scientist, EXL (2022 – Present)\nLogistic Regression, Begg and Gray, State Transition Matrix, Clustering, Decision Trees, Two-stage Hurdle Models\nData Scientist, L&T Construction (2019 – 2021)\nARIMA, GAM, NLP, Automation\nData Engineer, Infosys Limited (2014 – 2017)\nData Processing & Cleaning, Reporting, Query Optimization"
   },
   {
     "objectID": "index.html#education",
@@ -145,5 +145,12 @@
     "title": "The Root of Me",
     "section": "",
     "text": "A closing section that wraps the essay with reflective tone."
+  },
+  {
+    "objectID": "content/about.html#hoping-that-unlike-my-previous-attempts-i-will-not-get-lost-to-the-time-and-mind-storms-of-my-own-making.",
+    "href": "content/about.html#hoping-that-unlike-my-previous-attempts-i-will-not-get-lost-to-the-time-and-mind-storms-of-my-own-making.",
+    "title": "The Root of Me",
+    "section": "Hoping that, unlike my previous attempts, I will not get lost to the time and mind storms of my own making.",
+    "text": "Hoping that, unlike my previous attempts, I will not get lost to the time and mind storms of my own making."
   }
 ]

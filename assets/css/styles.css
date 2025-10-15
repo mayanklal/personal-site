@@ -210,7 +210,6 @@
   .navbar-container,
   .navbar-container.container-fluid {
     max-width: 100%;
-    width: 100%;
     margin: 0;
     padding: 0;
   }
@@ -225,11 +224,20 @@
     margin-right: 0;
     width: 100%;
   }
+
+  /* ------------------------------------------
+   Reduce Navbar Font Size on Smaller Screens
+   ------------------------------------------ */
+  .navbar .nav-link,
+  .navbar a.nav-link {
+    font-size: 0.9rem !important; /* slightly smaller */
+    padding: 0.25rem 0.4rem !important; /* tighter spacing */
+  }
 }
 
 /* -----------------------------------------------------
    MAYANK LAL — Artistic Minimalist Typography System
-   Inspired by Kailash Nadh / Japanese Zen Design
+   Inspired by Japanese Zen Design
 ------------------------------------------------------ */
 
 /* -------- Global Base -------- */
@@ -245,8 +253,7 @@ body {
 }
 
 /* -------- Headings -------- */
-h1, h2, h3, h4, h5, h6,
-.navbar-brand, .navbar a.nav-link {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Inter', 'Segoe UI', sans-serif;
   font-weight: 600;
   letter-spacing: 0.01em;
@@ -270,6 +277,13 @@ h3 {
   font-size: 1.25rem;
   margin-top: 1.4rem;
   margin-bottom: 0.4rem;
+}
+
+/* -------- Navigation Bar -------- */
+.navbar-brand, .navbar a.nav-link {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  letter-spacing: 0.01em;
+  line-height: 1.25;
 }
 
 /* -------- Paragraphs -------- */
@@ -307,15 +321,103 @@ blockquote {
   font-style: italic;
 }
 
+/* -----------------------------------------------------
+   Responsive Typography — Scales Down on Smaller Screens
+------------------------------------------------------ */
+
+/* Medium screens (tablets and small laptops) */
+@media (max-width: 1024px) {
+  body {
+    font-size: 1rem; /* slightly smaller than 1.06rem */
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 1.15rem;
+  }
+}
+
+/* Small screens (phones and narrow viewports) */
+@media (max-width: 600px) {
+  body {
+    font-size: 0.95rem;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  h3 {
+    font-size: 1.05rem;
+  }
+}
+
+/* -----------------------------------------------------
+   Footer Alignment Fix — Always Centered
+------------------------------------------------------ */
 .nav-footer {
   background-color: inherit !important;  /* same as page background */
   color: inherit !important;              /* same as main text */
   text-align: center;
-  font-size: 0.85rem;
-  margin-top: 2rem;
-  padding: 1rem 0;
+  justify-content: center;
+  width: 100%;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: none;
 }
 
+/* Target the <p> tag inside footer and center it */
+.nav-footer-center p {
+  margin: 0 auto;
+  text-align: center;
+  max-width: none;          /* remove Quarto’s inner limit */
+  width: fit-content;       /* adapt exactly to text width */
+  display: inline-block;    /* ensures true centering */
+}
 
+.nav-footer-left,
+.nav-footer-right {
+  display: none !important;
+}
+
+/* On smaller screens — keep centered, slightly smaller */
+@media (max-width: 1024px) {
+    .nav-footer {
+    padding: 0;          /* less padding vertically on mobile */
+  }
+
+  .nav-footer-center p {
+    margin-top: 0;         /* snug to the border */
+  }
+}
+
+/* ----------------------------------------------------
+   Sync grid width with main document content on mobile
+---------------------------------------------------- */
+@media (max-width: 1024px) {
+  .grid {
+    width: 100% !important;
+    max-width: none !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  main.quarto-document-content.content {
+    width: 100% !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+  }
+}
