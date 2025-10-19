@@ -3,8 +3,7 @@ title: "Computes"
 format:
   html:
     css: 
-      - /assets/css/styles.css   
-      - /assets/css/essays.css 
+      - /assets/css/styles.css
 ---
 
 Repository of my Quantitative Projects.

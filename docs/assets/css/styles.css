@@ -1,14 +1,285 @@
-/* Base navbar link styling (optional enhancement) */
-.navbar-nav > li > a {
+/* =========================================================
+   HEADER IMAGE ABOVE BRAND (FINAL FIX)
+========================================================= */
+
+.site-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 0 auto;
   position: relative;
-  cursor: pointer;
+  max-height: 400px; /* header height */
+  z-index: 0;
 }
 
-/* Generic tooltip styling */
-.navbar-nav > li > a::after {
+/* Flip container */
+.header-flip {
+  width: 100%;
+  max-width: 796px; /* matches navbar width */
+  position: relative;
+  height: auto;
+  aspect-ratio: 5 / 1; /* controls proportional height */
+}
+
+/* Base image style */
+.header-flip img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  transition: transform 0.8s ease-in-out;
+  border-radius: 2px;
+}
+
+/* Front face */
+.header-flip .front {
+  transform: rotateY(0deg);
+  z-index: 2;
+}
+
+/* Back face */
+.header-flip .back {
+  transform: rotateY(180deg);
+  z-index: 1;
+}
+
+/* Flip ONLY on hover */
+.header-flip:hover .front {
+  transform: rotateY(180deg);
+}
+
+.header-flip:hover .back {
+  transform: rotateY(0deg);
+}
+
+/* =========================================================
+   NAVBAR — Classical Layout with Title Above Border
+   For theme: flatly
+========================================================= */
+
+/* Reset Flatly’s gray background and padding */
+.navbar {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  margin: 0 auto 3rem !important;
+  padding: 0 !important;
+  max-width: 796px !important;   /* keep constant width */
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  position: relative !important;
+  box-sizing: border-box !important;
+}
+
+
+/* ---------------------------------------------------------
+   BRAND: Show above top border (floating heading)
+--------------------------------------------------------- */
+.navbar-brand {
+  font-family: "EB Garamond", serif !important;
+  font-weight: 700 !important;
+  font-size: 2.6rem !important;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #111 !important;
+  background: transparent !important;
+  text-align: center;
+  pointer-events: none;
+  margin-bottom: 1.6rem !important; /* space between brand & top border */
+}
+
+/* ---------------------------------------------------------
+   NAVIGATION BAR (double border style)
+--------------------------------------------------------- */
+.navbar-nav {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-wrap: nowrap !important;
+  gap: 2.2rem !important;
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0.8rem 0 !important;
+  width: 100%;
+  border-top: 1px solid #bbb !important;
+  border-bottom: 1px solid #bbb !important;
+}
+
+/* Navigation links */
+.navbar-nav > li > a.nav-link {
+  font-family: "Inter", sans-serif !important;
+  font-weight: 500 !important;
+  font-size: 0.95rem !important;
+  color: #222 !important;
+  text-decoration: none !important;
+  letter-spacing: 0.02em;
+  background: transparent !important;
+  padding: 0.25rem 0 !important;
+  transition: color 0.2s ease;
+}
+
+.navbar-nav > li > a.nav-link:hover,
+.navbar-nav > li.active > a.nav-link {
+  color: #000 !important;
+  text-decoration: underline !important;
+}
+
+/* Remove Quarto’s default shadow / bg */
+.bg-light,
+.navbar-light,
+.navbar-default {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+/* Hide hamburger toggle */
+.navbar-toggler {
+  display: none !important;
+}
+
+/* =========================================================
+   BRAND ABOVE NAVBAR (Flatly-compatible patch)
+   ========================================================= */
+
+/* Lift brand above the nav container visually */
+.navbar-brand {
+  position: absolute !important;
+  top: -4rem; /* adjust vertical offset */
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "EB Garamond", serif !important;
+  font-weight: 700 !important;
+  font-size: 2.6rem !important;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #111 !important;
+  text-align: center;
+  background: transparent !important;
+  pointer-events: auto !important; /* clickable again */
+  z-index: 10;
+}
+
+/* Keep navbar centered under it */
+.navbar {
+  position: relative !important;
+  margin-top: 3.6rem !important; /* create space for lifted brand */
+}
+
+/* Optional hover feedback for brand */
+.navbar-brand:hover {
+  text-decoration: none !important;
+  color: #000 !important;
+}
+
+/* =========================================================
+   RESPONSIVE FIX — Keep Navbar in One Row on Smaller Screens
+   ========================================================= */
+
+/* Applies from large phones to tablets */
+@media (max-width: 1024px) {
+
+  /* Container adjustments */
+  .navbar,
+  .navbar-container,
+  .navbar-collapse {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    width: 100% !important;
+    overflow-x: visible !important;
+  }
+
+   .navbar-nav {
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+    /* ✅ Adaptive spacing and padding */
+    gap: clamp(0.6rem, 2.5vw, 1.4rem) !important;
+    padding: clamp(0.4rem, 1.5vw, 0.7rem) 0 !important;
+
+    /* ✅ Borders that visually scale with screen size */
+    border-top: 1px solid #bbb !important;
+    border-bottom: 1px solid #bbb !important;
+    width: 100% !important;
+    max-width: 100% !important;
+
+    /* ✅ Prevent scroll bars from appearing */
+    overflow-x: hidden !important;
+    box-sizing: border-box !important;
+  }
+
+  .navbar-nav > li > a.nav-link {
+    font-size: 0.8rem !important;
+  }
+}
+
+/* =========================================================
+   WIDTH SYNC — Fix mismatch between navbar, collapse & nav-scroll
+========================================================= */
+
+.navbar.navbar-expand-lg,
+.navbar.navbar-expand-lg .collapse.navbar-collapse,
+.navbar-nav.navbar-nav-scroll.ms-auto {
+  max-width: 825px !important;   /* ✅ perfectly matches .content */
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  box-sizing: border-box !important;
+  display: flex !important;
+  justify-content: center !important;   /* ✅ keeps links centered */
+  align-items: center !important;
+}
+
+/* =========================================================
+   ACTIVE TAB STYLING — Elegant underline indicator
+========================================================= */
+
+/* Base: all links are neutral */
+.navbar-nav > li > a.nav-link {
+  color: #222 !important;
+  text-decoration: none !important;
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+/* Subtle hover feedback */
+.navbar-nav > li > a.nav-link:hover {
+  color: #000 !important;
+}
+
+/* Active link — underline accent */
+.navbar-nav > li.active > a.nav-link,
+.navbar-nav > li > a.nav-link.active {
+  color: #000 !important;
+  font-weight: 600 !important;  /* small typographic lift */
+}
+
+/* =========================================================
+   CUSTOM TOOLTIP — Minimal Floating Text on Hover
+========================================================= */
+
+/* Base tooltip container (hidden by default) */
+.navbar-nav > li > a[data-tooltip]::after {
   content: attr(data-tooltip);
   position: absolute;
-  bottom: -1.8em;
+  bottom: -4em;
   left: 50%;
   transform: translateX(-50%);
   background: rgba(0, 0, 0, 0.85);
@@ -19,238 +290,62 @@
   opacity: 0;
   white-space: nowrap;
   pointer-events: none;
-  transition: opacity 0.25s ease;
-  z-index: 1000;
 }
 
-/* Hover effect */
-.navbar-nav > li > a:hover::after {
+/* Fade in tooltip on hover */
+.navbar-nav > li > a[data-tooltip]:hover::after {
   opacity: 1;
+  transform: translate(-50%, -2.2em);
 }
 
-/* --- TOOLTIP TEXTS PER NAV ITEM --- */
-
-/* Root */
-.navbar a:contains("Root")::after {
-  content: "Home / About Me";
+/* =========================================================
+   GLOBAL BACKGROUND — Parchment Swirl Texture
+   ========================================================= */
+html, body {
+  height: 100%;
+  background-color: #f7f2e8; /* base parchment tone */
+  background-image: url("../media/images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top center;
+  color: #1b1b1b;
+  font-family: "Source Serif 4", "Georgia", serif;
+  line-height: 1.6;
+  margin: 0 auto;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
-/* Computes */
-.navbar a:contains("Computes")::after {
-  content: "Data, Code & Analytics";
-}
-
-/* Reveries */
-.navbar a:contains("Reveries")::after {
-  content: "Essays & Reflections";
-}
-
-/* Pixels */
-.navbar a:contains("Pixels")::after {
-  content: "Data Visuals & Graphics";
-}
-
-/* Assemblies */
-.navbar a:contains("Assemblies")::after {
-  content: "DIY Builds & Projects";
-}
-
-/* π */
-.navbar a:contains("π")::after {
-  content: "Random Musings";
-}
-
-/* ------------------------------------------
-   Fix for Bootstrap .navbar-nav-scroll Vertical Stack
-   ------------------------------------------ */
-/* Force horizontal flex layout */
-.navbar {
-  display: flex !important;
-  flex-direction: row !important;
-}
-
-/* Center the entire navbar content block */
-.navbar > .navbar-container {
-  max-width: 1124px;   /* adjust for your preferred width */
-  min-width: 300px;
-}
-
-/* Navbar brand (your name) */
-.navbar .navbar-brand-container .navbar-brand {
-  font-weight: 600;
-  color: #ecf0f1 !important;
-  text-align: left;
-}
-
-/* Keep the navbar expanded and horizontal */
-.navbar .navbar-collapse {
-  display: flex !important;
-  flex-direction: row !important;
-  align-items: center;
-  justify-content: flex-end;
-  flex-wrap: wrap; /* lets entire row move down when narrow */
-}
-
-/* Hide hamburger icon */
-.navbar-toggler {
-  display: none !important;
-}
-
-/* Force horizontal layout for main navigation */
-.navbar-nav.navbar-nav-scroll {
-  flex-direction: row !important;
-  align-items: center !important;
-  overflow: visible !important; /* disables scroll container behavior */
-}
-
-/* Prevent .me-auto from pushing items awkwardly when wrapping */
-.navbar-nav.me-auto {
-  margin-right: 0 !important;
-  margin-left: 0 !important;
-  justify-content: center !important;
-}
-
-/* Make links evenly spaced and centered */
-.navbar-nav {
-  justify-content: center;
-}
-
-/* Ensure the entire navbar stays horizontal by default */
-.navbar .navbar-collapse {
-  display: flex !important;
-  align-items: center !important;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-/* On small screens: Center the brand name and navigation tabs */
-@media (max-width: 1024px) {
-  .navbar .navbar-container,
-  .navbar .navbar-brand-container {
-    text-align: center;
-    justify-content: center;
-  }
-
-  .navbar .navbar-brand {
-    margin: 0 auto;
-    display: inline-block;
-  }
-
-  .navbar .navbar-collapse .navbar-brand {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .navbar-nav {
-    justify-content: center;
-    width: 100%;
-  }
-
-  /* Align social media icons in row instead of default column */
-  .about-links {
-    display: flex !important;
-    flex-direction: row !important;   /* horizontal layout on mobile */
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.6rem;
-  }
-}
-
-/* ------------------------------------------
-   Unified Responsive Width for Navbar & Grid
-   ------------------------------------------ */
-
-/* Responsive, centered layout */
-.quarto-container.page-columns.page-rows-contents.page-layout-article.page-navbar,
-.grid,
-.navbar-container.container-fluid {
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  /* clamp(minimum, preferred, maximum) */
-  max-width: clamp(320px, 90%, 1060px);
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 0;
-  padding-right: 0;
-  box-sizing: border-box;
+  height: 100%;
+  background: rgba(247, 242, 232, 0.4); /* soft overlay */
+  pointer-events: none;
+  z-index: -1;
 }
 
-
-
-/* Profile image (circular and fixed size) */
-.rounded-circle {
-  width: 232px !important;
-  height: 232px !important;
-  border-radius: 50% !important;
-  object-fit: cover;   /* keeps proportions */
+.navbar-logo {
   display: block;
-  margin-left: auto;   /* aligns right within its column */
-  margin-right: 0;
-  max-width: none !important;   /* override img-fluid */
+  margin: 0 auto;
+  max-height: 120px; /* adjust image height */
+  padding-bottom: 0.5rem;
 }
 
-/* For smaller screens, stack image on top of content */
-@media (max-width: 1024px) {
-  .grid {
-    display: flex;
-    flex-direction: column-reverse; /* image comes first */
-  }
-
-  .grid > div,
-  .grid > section {
-    width: 100%;
-  }
-
-  .rounded-circle {
-    order: -1; /* ensure image appears first */
-    display: block;
-    margin: 0 auto 1.5rem auto; /* center image only */
-  }
-
-  .navbar,
-  .navbar-container,
-  .navbar-container.container-fluid {
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-
-  .quarto-container,
-  .page-columns,
-  .grid,
-  main.content {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-  }
-
-  /* ------------------------------------------
-   Reduce Navbar Font Size on Smaller Screens
-   ------------------------------------------ */
-  .navbar .nav-link,
-  .navbar a.nav-link {
-    font-size: 0.9rem !important; /* slightly smaller */
-    padding: 0.25rem 0.4rem !important; /* tighter spacing */
-  }
+.navbar-title {
+  margin-top: 0;
 }
+
+
 
 /* -----------------------------------------------------
    MAYANK LAL — Artistic Minimalist Typography System
    Inspired by Japanese Zen Design
 ------------------------------------------------------ */
-
-/* -------- Global Base -------- */
-body {
-  font-family: 'Source Serif 4', Georgia, serif;
-  font-size: 1.06rem;
-  line-height: 1.8;
-  color: #1a1a1a; /* slightly softened black */
-  background-color: #fafafa;
-  margin: 0 auto;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-}
 
 /* -------- Headings -------- */
 h1, h2, h3, h4, h5, h6 {
@@ -341,25 +436,6 @@ blockquote {
 
   h3 {
     font-size: 1.15rem;
-  }
-}
-
-/* Small screens (phones and narrow viewports) */
-@media (max-width: 600px) {
-  body {
-    font-size: 0.95rem;
-  }
-
-  h1 {
-    font-size: 1.6rem;
-  }
-
-  h2 {
-    font-size: 1.25rem;
-  }
-
-  h3 {
-    font-size: 1.05rem;
   }
 }
 

@@ -1,57 +1,15 @@
-::: {.grid}
-::: {.g-col-9}
+---
+subtitle: "Quantitative Storyteller"
+format:
+  html:
+    css: 
+      - /assets/css/styles.css
+    toc: false
+---
+Welcome to my corner of the web —  
+a collection of stories, models, and reflections that blend logic and language.
 
-Hello World!
-
-I’m a data scientist and quantitative developer passionate about telling stories about businesses, economy, and nations using financial data and open source tools.
-
-I work on quantitative risk models, integrating behavioral and macroeconomic factors into risk frameworks. My focus areas are credit risk modelling (PD/EAD/LGD), regulatory analytics (CCAR/CECL/IFRS9), climate risk stress testing and portfolio analytics.
-
-## Experience
-
-- **Senior Data Scientist**, EXL *(2022 – Present)*  
-  _Logistic Regression, Begg and Gray, State Transition Matrix, Clustering, Decision Trees, Two-stage Hurdle Models_
-
-- **Data Scientist**, L&T Construction *(2019 – 2021)*  
-  _ARIMA, GAM, NLP, Automation_
-
-- **Data Engineer**, Infosys Limited *(2014 – 2017)*  
-  _Data Processing & Cleaning, Reporting, Query Optimization_
+This space is my attempt to distill the art of **quantitative storytelling** —  
+data that speaks, visuals that breathe, and words that reveal.
 
 
-## Education
-
-- **MBA (Finance & Analytics)** — *IIM Tiruchirappalli*, 2019
-- **B.Tech (Computer Science)** — *GNDEC Ludhiana*, 2014
-
-
-## Certification
-
-- **FRM** - Level 2 Candidate
-- **Quantitative Analyst in R** - Data Camp
-- **Practical Time Series Analysis** - The State University of New York
-- **Azure Data Fundamentals** - Microsoft
-- **Azure AI Fundamentals** - Microsoft
-
-
-## Skills
-
-- **Modeling:** Regression, Time Series Forecasting, NLP, Machine Learning   
-- **Tools:** SAS, R, Python, SQL, Bash, Linux
-- **Cloud & Versioning:** AWS, Azure, GitHub  
-- **Soft Skills:** Communication, Mentoring, Storytelling with Data
-
-## Awards
-
-- *Pioneer Award*, EXL 2024
-- *CITI ACE Award*, CITI 2024 
-
-## Interests
-
-OSS  |  Economics  |  Public Policy | Film Making | Creative Writing | Gaming
-
-:::
-::: {.g-col-3} 
-![](assets/media/images/profile.jpg){.rounded-circle}
-:::
-:::
