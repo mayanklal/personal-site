@@ -1,5 +1,5 @@
 ---
-subtitle: "Quantitative Storyteller"
+title: "Quantitative Storyteller"
 format:
   html:
     css: 

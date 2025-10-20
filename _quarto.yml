@@ -11,6 +11,8 @@ website:
   site-url: "https://mayanklal.com"
   description: "Data Scientist | Risk Modeling | Finance | Storytelling"
   navbar:
+    pinned: true
+    headroom: false
     brand: "MAYANK LAL"   # this activates the brand name
     right:
       - href: index.qmd
@@ -34,15 +36,14 @@ format:
     include-in-header:
       - text: |
           <div class="site-header">
-            <div class="header-flip">
-              <img src="/assets/media/images/header-front.jpg" alt="Header Front" class="front">
-              <img src="/assets/media/images/header-back.jpg" alt="Header Back" class="back">
-            </div>
+            <img src="/assets/media/images/header-front-2.png" 
+                 alt="Gauss" 
+                 class="site-header-img">
           </div>
       - text: |
           <script src="/assets/js/tooltip.js"></script>
       - text: |
-          <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
     theme: flatly
     smooth-scroll: true
     toc: false

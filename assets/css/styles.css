@@ -1,62 +1,4 @@
 /* =========================================================
-   HEADER IMAGE ABOVE BRAND (FINAL FIX)
-========================================================= */
-
-.site-header {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  margin: 0 auto;
-  position: relative;
-  max-height: 400px; /* header height */
-  z-index: 0;
-}
-
-/* Flip container */
-.header-flip {
-  width: 100%;
-  max-width: 796px; /* matches navbar width */
-  position: relative;
-  height: auto;
-  aspect-ratio: 5 / 1; /* controls proportional height */
-}
-
-/* Base image style */
-.header-flip img {
-  width: 100%;
-  height: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  backface-visibility: hidden;
-  transition: transform 0.8s ease-in-out;
-  border-radius: 2px;
-}
-
-/* Front face */
-.header-flip .front {
-  transform: rotateY(0deg);
-  z-index: 2;
-}
-
-/* Back face */
-.header-flip .back {
-  transform: rotateY(180deg);
-  z-index: 1;
-}
-
-/* Flip ONLY on hover */
-.header-flip:hover .front {
-  transform: rotateY(180deg);
-}
-
-.header-flip:hover .back {
-  transform: rotateY(0deg);
-}
-
-/* =========================================================
    NAVBAR — Classical Layout with Title Above Border
    For theme: flatly
 ========================================================= */
@@ -153,10 +95,10 @@
 /* Lift brand above the nav container visually */
 .navbar-brand {
   position: absolute !important;
-  top: -4rem; /* adjust vertical offset */
+  top: 8rem; /* adjust vertical offset */
   left: 50%;
   transform: translateX(-50%);
-  font-family: "EB Garamond", serif !important;
+  font-family: "Cormorant Garamond", serif !important;
   font-weight: 700 !important;
   font-size: 2.6rem !important;
   text-transform: uppercase;
@@ -165,6 +107,12 @@
   text-align: center;
   background: transparent !important;
   pointer-events: auto !important; /* clickable again */
+  z-index: 10;
+}
+
+.navbar-nav {
+  position: relative !important;
+  top: 12rem !important; /*align with brand */
   z-index: 10;
 }
 
@@ -185,7 +133,7 @@
    ========================================================= */
 
 /* Applies from large phones to tablets */
-@media (max-width: 1024px) {
+@media (max-width: 825px) {
 
   /* Container adjustments */
   .navbar,
@@ -245,6 +193,53 @@
   display: flex !important;
   justify-content: center !important;   /* ✅ keeps links centered */
   align-items: center !important;
+}
+
+/* =========================================================
+   FIX — Remove unwanted vertical scroll bar in navbar
+========================================================= */
+
+/* Disable Bootstrap's forced scroll on .navbar-nav-scroll */
+.navbar-nav-scroll {
+  overflow-y: visible !important;
+  overflow-x: visible !important;
+  max-height: none !important;
+}
+
+/* On mobile, ensure navbar items stay centered and don't clip */
+@media (max-width: 1024px) {
+  .navbar-nav-scroll {
+    overflow: visible !important;
+  }
+
+  /* Prevent navbar items from stretching off-screen */
+  .navbar-nav {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+  }
+}
+
+/* Prevent Quarto's mobile wrapper from forcing scroll */
+.navbar-collapse.collapse.show,
+.navbar-collapse.collapse {
+  overflow: visible !important;
+  max-height: none !important;
+}
+
+/* =========================================================
+   ULTRA-SMALL SCREEN OPTIMIZATION (width < 360px)
+   ========================================================= */
+
+@media (max-width: 360px) {
+
+  .navbar-nav > li > a.nav-link {
+    font-size: 0.65rem !important; /* tighter, proportional nav links */
+    letter-spacing: 0.01em !important;
+  }
+
+  .navbar-nav {
+    gap: 0.8rem !important; /* reduce spacing between tabs */
+  }
 }
 
 /* =========================================================
@@ -319,7 +314,7 @@ html, body {
 
 body::before {
   content: "";
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -340,103 +335,246 @@ body::before {
   margin-top: 0;
 }
 
+/* =========================================================
+   HEADER IMAGE ABOVE NAVBAR (RESPONSIVE + CLEAN)
+   ========================================================= */
+.site-header {
+  top: -2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  z-index: 5;
+}
 
+.site-header-img {
+  width: 100%;
+  max-width: 825px; /* matches navbar width */
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 0;
+}
 
-/* -----------------------------------------------------
-   MAYANK LAL — Artistic Minimalist Typography System
-   Inspired by Japanese Zen Design
------------------------------------------------------- */
+@media (max-width: 730px) and (min-width: 581px) {
+  .navbar-brand {
+    top: 6rem !important;
+  }
+  .navbar-nav {
+    top: 10rem !important;
+  }
+}
 
-/* -------- Headings -------- */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Inter', 'Segoe UI', sans-serif;
-  font-weight: 600;
+@media (max-width: 580px) and (min-width: 501px) {
+  .navbar-brand {
+    top: 4rem !important;
+  }
+  .navbar-nav {
+    top: 8rem !important;
+  }
+}
+
+@media (max-width: 500px) and (min-width: 361px) {
+  .navbar-brand {
+    top: 1em !important;
+  }
+  .navbar-nav {
+    top: 7rem !important;
+  }
+}
+
+@media (max-width: 360px) { 
+  .navbar-brand { 
+    top: 1rem !important; 
+  } 
+  .navbar-nav { 
+    top: 5rem !important; 
+  }  
+};
+
+/* =========================================================
+   MAYANK LAL — CALM INTELLIGENT TYPOGRAPHY SYSTEM
+   Inspired by Minimalist Japanese + Editorial Aesthetics
+========================================================= */
+
+/* -------- Base Type System -------- */
+html {
+  font-size: 16px; /* Root for consistent rem scaling */
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Source Serif 4", "Georgia", serif;
+  font-weight: 400;
+  color: #1b1b1b;
+  background: transparent;
+  font-size: 1.06rem;
+  line-height: 1.7;
   letter-spacing: 0.01em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+}
+
+/* =========================================================
+   HEADINGS — Modern Serif-Sans Blend with Visual Hierarchy
+========================================================= */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "EB Garamond", "Inter", sans-serif;
+  font-weight: 600;
   line-height: 1.25;
+  color: #111;
+  letter-spacing: 0.01em;
+  text-align: center;
 }
 
 h1 {
-  font-size: 2rem;
-  margin-bottom: 0.5em;
-}
-
-h2 {
-  font-size: 1.5rem;
-  margin-top: 2rem;
-  margin-bottom: 0.5em;
-  border-bottom: 1px solid #eee;
+  font-size: clamp(2rem, 4vw, 2.6rem);
+  text-transform: none;
+  letter-spacing: 0.015em;
   padding-bottom: 0.3em;
 }
 
+h2 {
+  font-size: clamp(1.6rem, 3.2vw, 2rem);
+  border-left: 3px solid rgba(0,0,0,0.1);
+  padding-left: 0.75rem;
+  margin-top: 2.2rem;
+  margin-bottom: 0.8rem;
+}
+
 h3 {
-  font-size: 1.25rem;
-  margin-top: 1.4rem;
-  margin-bottom: 0.4rem;
-}
-
-/* -------- Navigation Bar -------- */
-.navbar-brand, .navbar a.nav-link {
-  font-family: 'Inter', 'Segoe UI', sans-serif;
-  letter-spacing: 0.01em;
-  line-height: 1.25;
-}
-
-/* -------- Paragraphs -------- */
-p {
-  max-width: 70ch;
-  margin-bottom: 1.2em;
-  text-align: justify;
+  font-size: clamp(1.3rem, 2.4vw, 1.6rem);
+  font-weight: 500;
   color: #222;
+  margin-top: 1.8rem;
+  margin-bottom: 0.5rem;
 }
 
-/* -------- Italics -------- */
+h4, h5, h6 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #333;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* =========================================================
+   PARAGRAPHS — Gentle Contrast, Longform Readability
+========================================================= */
+p {
+  max-width: 72ch;
+  margin: 0 auto 1.3em;
+  text-align: justify;
+  color: #2a2a2a;
+  line-height: 1.75;
+  font-size: clamp(1rem, 1.2vw, 1.06rem);
+}
+
+/* Small visual rhythm tweak for paragraph spacing */
+p + p {
+  margin-top: 0.8em;
+}
+
+/* =========================================================
+   EMPHASIS & INLINE ELEMENTS
+========================================================= */
 em, i {
   font-style: italic;
-  color: #333;
+  color: #444;
+  letter-spacing: 0.01em;
 }
 
-/* -------- Links -------- */
-a {
-  color: #b60000; /* warm accent, subtle red tone */
+strong, b {
+  font-weight: 600;
+  color: #111;
+}
+
+
+/* =========================================================
+   BLOCKQUOTES — Editorial Style
+========================================================= */
+blockquote {
+  border-left: 3px solid rgba(0, 0, 0, 0.15);
+  padding-left: 1.2rem;
+  margin: 1.8rem auto;
+  font-style: italic;
+  color: #444;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  max-width: 65ch;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* =========================================================
+   FOOTER TYPOGRAPHY — Quiet, Grounded Presence
+========================================================= */
+.page-footer {
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  color: #444;
+  text-align: center;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+  padding: 2rem 1rem 1.5rem;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.page-footer a {
+  color: #8c1b0f;
+  font-weight: 500;
   text-decoration: none;
-  transition: color 0.2s ease;
 }
 
-a:hover {
-  color: #d90000;
+.page-footer a:hover {
+  color: #b8321a;
   text-decoration: underline;
 }
 
-/* -------- Blockquotes -------- */
-blockquote {
-  border-left: 3px solid #ccc;
-  padding-left: 1rem;
-  margin: 1.2rem 0;
-  color: #444;
-  font-style: italic;
+/* =========================================================
+   RESPONSIVE TYPE SCALE — Fluid Adaptation
+========================================================= */
+@media (max-width: 1024px) {
+  h1 { font-size: 2.1rem; }
+  h2 { font-size: 1.6rem; }
+  h3 { font-size: 1.3rem; }
+  p   { font-size: 1rem; line-height: 1.65; }
 }
 
-/* -----------------------------------------------------
-   Responsive Typography — Scales Down on Smaller Screens
------------------------------------------------------- */
+@media (max-width: 480px) {
+  h1 { font-size: 1.8rem; }
+  h2 { font-size: 1.4rem; }
+  h3 { font-size: 1.2rem; }
+  p   { font-size: 0.96rem; line-height: 1.6; }
+  blockquote { font-size: 0.95rem; padding-left: 1rem; }
+  .page-footer { font-size: 0.85rem; line-height: 1.3; }
+}
 
-/* Medium screens (tablets and small laptops) */
-@media (max-width: 1024px) {
-  body {
-    font-size: 1rem; /* slightly smaller than 1.06rem */
-  }
-
-  h1 {
-    font-size: 1.8rem;
-  }
-
-  h2 {
-    font-size: 1.4rem;
-  }
-
-  h3 {
-    font-size: 1.15rem;
-  }
+/* =========================================================
+   PAGE TITLE — "Quantitative Storyteller" Style
+   ========================================================= */
+h1.title,
+.page-title,
+.quarto-title-block .title {
+  font-family: "Cormorant Garamond", serif !important;
+  font-style: italic !important;
+  font-weight: 500 !important;
+  font-size: clamp(1.8rem, 3vw + 1rem, 2.6rem) !important;
+  color: #1a1a1a !important;
+  text-align: center !important;
+  letter-spacing: 0.02em;
+  word-spacing: 0.05em;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* -----------------------------------------------------
@@ -496,4 +634,36 @@ blockquote {
     padding-right: 1rem;
     box-sizing: border-box;
   }
+}
+
+/* =========================================================
+   DISABLE HEADROOM.JS — Keep Navbar Always Visible
+========================================================= */
+
+.headroom.fixed-top {
+  position: absolute !important;
+  top: 3rem !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 1000 !important;
+  background: transparent !important;
+  transform: none !important;
+  transition: none !important;
+}
+
+.headroom.fixed-top .navbar {
+  max-width: 825px !important;
+  margin: 0 auto !important;
+}
+
+/* =========================================================
+   FIX: Prevent body title/content overlap with fixed navbar
+========================================================= */
+
+main.content,
+main.quarto-document-content,
+#quarto-content {
+  padding-top: 3rem !important;  /* adjust height of header + brand + navbar */
+  position: relative;
+  z-index: 1;
 }
