@@ -1,9 +1,9 @@
 ---
-title: "Computes"
+title: "**Computes**"
 format:
   html:
     css: 
       - /assets/css/styles.css
 ---
-
+<br>
 Repository of my Quantitative Projects.

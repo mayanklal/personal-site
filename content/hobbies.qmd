@@ -1,9 +1,9 @@
 ---
-title: "Pi"
+title: "**π**"
 format:
   html:
     css: 
       - /assets/css/styles.css
 ---
-
+<br>
 Random musings about books, movies, comics, travel, and more.

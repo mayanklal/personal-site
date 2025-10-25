@@ -1,9 +1,9 @@
 ---
-title: "Reveries"
+title: "**Reveries**"
 format:
   html:
     css: 
       - /assets/css/styles.css
 ---
-
+<br>
 Narrative and Numbers.

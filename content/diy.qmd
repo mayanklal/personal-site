@@ -1,9 +1,9 @@
 ---
-title: "Assemblies"
+title: "**Assemblies**"
 format:
   html:
     css: 
       - /assets/css/styles.css
 ---
-
+<br>
 Receipes of my creations.

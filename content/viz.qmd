@@ -1,9 +1,9 @@
 ---
-title: "Pixels"
+title: "**Pixels**"
 format:
   html:
     css: 
       - /assets/css/styles.css 
 ---
-
+<br>
 Storytelling through Pixels.
