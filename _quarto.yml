@@ -13,7 +13,7 @@ website:
   navbar:
     pinned: true
     headroom: false
-    brand: "MAYANK LAL"   # this activates the brand name
+    brand: "MAYANK LAL"
     right:
       - href: index.qmd
         text: "Root"
@@ -27,7 +27,8 @@ website:
         text: "Pixels"
       - href: content/hobbies.qmd
         text: "π"
-  page-footer: 
+
+  page-footer:
     center: "Powered by Quarto · Mayank Lal © 2025"
 
 format:
@@ -37,8 +38,18 @@ format:
       - text: |
           <div class="site-header">
             <img src="/assets/media/images/header-front-2.png" 
-                 alt="Gauss" 
+                 alt="Header Image" 
                  class="site-header-img">
+            <p class="image-attribution">
+              © ngdawa
+              <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" 
+                 target="_blank" 
+                 rel="license noopener">
+                <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" 
+                     alt="CC BY-NC-SA 4.0" 
+                     class="cc-icon">
+              </a>
+            </p>
           </div>
       - text: |
           <script src="/assets/js/tooltip.js"></script>
