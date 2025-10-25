@@ -7,9 +7,9 @@ project:
 website:
   title: "Mayank Lal"
   search: false
-  favicon: static/icons/logo_favicon_512.png
+  favicon: static/icons/site-icon.png
   site-url: "https://mayanklal.com"
-  description: "Data Scientist | Risk Modeling | Finance | Storytelling"
+  description: "Machine Learning | Risk Modeling | Finance | Storytelling"
   navbar:
     pinned: true
     headroom: false
