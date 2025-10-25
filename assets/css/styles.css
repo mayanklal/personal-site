@@ -902,7 +902,7 @@ blockquote p:last-of-type::before {
 /* Date line — directly under author, left aligned */
 .quarto-title-meta .date {
   display: block !important;
-  font-size: 0.9rem !important;
+  font-size: 0.7rem !important;
   color: rgba(0, 0, 0, 0.65) !important;
   text-transform: uppercase !important;
   letter-spacing: 0.03em !important;
@@ -911,14 +911,6 @@ blockquote p:last-of-type::before {
   margin-left: 0 !important;
   margin-top: 0 !important;
   padding-left: 0 !important;
-}
-
-/* Add "Published" prefix automatically */
-.quarto-title-meta .date::before {
-  content: "Published " !important;
-  font-weight: 400 !important;
-  text-transform: none !important;
-  margin-right: 0.3rem !important;
 }
 
 /* =========================================================
