@@ -3,7 +3,7 @@ title: "**Reveries**"
 format:
   html:
     css: 
-      - /assets/css/styles.css
+      - /assets/css/styles_home.css
 ---
 <br>
 Narrative and Numbers.

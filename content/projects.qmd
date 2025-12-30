@@ -3,7 +3,7 @@ title: "**Computes**"
 format:
   html:
     css: 
-      - /assets/css/styles.css
+      - /assets/css/styles_home.css
 ---
 <br>
 Repository of my Quantitative Projects.

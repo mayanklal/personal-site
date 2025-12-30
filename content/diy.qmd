@@ -3,7 +3,7 @@ title: "**Assemblies**"
 format:
   html:
     css: 
-      - /assets/css/styles.css
+      - /assets/css/styles_home.css
 ---
 <br>
 Receipes of my creations.

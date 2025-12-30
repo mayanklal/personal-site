@@ -3,7 +3,7 @@ title: "**π**"
 format:
   html:
     css: 
-      - /assets/css/styles.css
+      - /assets/css/styles_home.css
 ---
 <br>
 Random musings about books, movies, comics, travel, and more.

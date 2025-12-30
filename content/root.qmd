@@ -1,0 +1,54 @@
+---
+title: "**The Root of Me**"
+pagetitle: "Root"
+author: Mayank Lal
+date: last-modified
+format:
+  html:
+    css: 
+      - /assets/css/styles_essays.css
+    toc: false
+---
+
+> *“My mind rebels at stagnation. Give me problems, give me work, give me the most abstruse cryptogram or the most intricate analysis, and I am in my own proper atmosphere. I can dispense then with artificial stimulants. But I abhor the dull routine of existence. I crave for mental exaltation. That is why I have chosen my own particular profession — or rather created it.”*
+> 
+> — **Sherlock Holmes**, The Sign of Four
+
+_Why is the root of i called an imaginary number?_ <br> When I began on the journey to find the answer to this question, I didn't know that I was starting on a journey back to a shore that I had forgotten about.
+
+While searching online for an answer, I found out that **René Descartes** introduced the term *"imaginary number"* in his book *La Géometrie* (1637). But he did not mean "imaginary" in the modern sense of "complex number." He used the term dismissively, implying that these numbers, i.e., roots involving the square root of a negative number, were fictional constructs as they could not be represented on a real number line.
+
+This raised another question in my mind — who gave them legitimacy as "complex numbers"?
+
+I sailed again looking for an answer and came across this quote from **Carl Ferdinand Gauss**:  
+
+*“That this subject [imaginary numbers] has hitherto been surrounded by mysterious obscurity, is to be attributed largely to an ill-adapted notation. If, for example, +1, −1, and the square-root of −1 had been called direct, inverse and lateral units, instead of positive, negative and imaginary (or even impossible), such an obscurity would have been out of the question.”*
+ 
+
+I decided to dig in more and came to the fact that it was Carl Ferdinand Gauss who brought them out of obscurity and rebranded them as complex numbers by showing that they are not imaginary at all but just numbers in two dimensions. It changed the history of mathematics, maybe even that of humankind. From fictional constructs, they became essential tools that describe real phenomena in math, science, and engineering.
+
+But what struck me most is that without imaginary numbers, algebra is incomplete. Only with them, algebra is closed. No equation is left unsolvable. They make algebra whole. 
+
+At this point, dear readers, the self-realization dawned on me that there is a part of us which we also dismiss as lesser constructs of no value in our pursuit of real numbers. We forget that this is a world of complex numbers. We can't be whole without embracing the "*imagination*". We can't live as one dimensional beings tied to one plane of reality. We are n-dimensional quantum beings existing on all possible planes of time and space. With this self-realization, I have found **the root of me**.
+
+---
+
+For a long time, I have drifted through streams of time looking for a shore to drop my anchor in. During my engineering days at **GNDEC, Ludhiana**, I thought that the shore for my soul belonged to the digital world of 0s and 1s. But over time, it dawned on me that I had romanticized the digital world of 0s and 1s for cold economic reasons. For me, they were nothing more than tools of creation. At the end of my bachelor’s, I had tools with me, but my search for the shore continued.
+
+This search slowly turned into a pursuit of Promethean fire to understand the inner workings of our modern world and led me to **IIM Trichy**. There, I rediscovered my passion for numbers in the form of **Analytics**. This rediscovery led me down a crossroad where I had to decide between Operations and Finance as my specialization in the second year of my **MBA**. The monotony of Operations and the alluring siren call of Finance made the choice easy for me. 
+
+My tryst with **Finance** began on an adversarial note. The bureaucratic language that envelops every pore of finance and the imprudence of accounting laws came very close to making me give up on it. But then, by the invisible hands of fate and my own ego, I found myself in the **Valuations** class. And like a classic enemies-to-lovers trope, I fell in love with Finance. To be more precise, I fell in love with the way numbers can be used to tell and understand the stories of businesses, nations, the world, and our own selves. That’s when I knew that I had found my shore. 
+
+At my shore now, I had tools of creation in my hand and the Promethean fire in my mind. But I still lacked something — *the Capital*. 
+
+So, I began on another journey to gather capital to build a home for myself at my shore and lost myself again in the real world. Until I came across the question that I asked you in the beginning.
+
+---
+
+This website is my attempt at anchoring myself to my shore by building a home using my tools of creation to keep aflame my Promethean fire. Here, I can be independent of the dictates of algorithms, the vagaries of online platforms, and the hustle culture of NPCs.  
+
+I want this website to be a reflection of my own self and expand myself to another plane of existence. 
+
+In this plane of existence, I practice a profession of my own creation. I become a **Quantitative Storyteller** who builds tools, shares curiosities and write stories of my random walks across our world of complex numbers.
+
+My name is **Mayank Lal**. Welcome to my *complex world*.
