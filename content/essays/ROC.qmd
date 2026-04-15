@@ -1,0 +1,42 @@
+---
+title: "The WWII Origin of ROC"
+order: 1
+pagetitle: "ROC"
+author: Mayank Lal
+date: last-modified
+format:
+  html:
+    css: 
+      - /assets/css/styles_essays.css
+    toc: false
+---
+
+_Did you know the origins of ROC go back to World War II and its role in saving cities from German Bombers?_
+
+<br>
+I didn’t. For a very long time.
+
+All the lectures and tutorials I went through to understand **ROC** Curves left me with one nagging question: why is it called “**Receiver Operating Characterstic**”? It’s a weird name for a plot.
+
+
+So one day, I decided to go down the rabbit hole to find the story behind its name and this is the story that I unraveled.
+
+
+During WWII, radar operators had to decide if a blip on their screen was a German bomber, a friendly plane, or just noise. The stakes were sky-high.
+
+
+So, the engineers were given the task to analyze and improve the accuracy of these classifications. The engineers began to plot the trade-off between the rate of correctly detecting a target and the rate of falsely identifying noise as a target.
+
+
+Slowly they standardized this process as a way to describe the “characteristic” of an operator’s ability to adjust the receiver and distinguish signal from noise. 
+
+
+That's how the term "Receiver Operating Characterstic" was coined and its long hold and relevance continues till today and beyond.
+
+
+So next time when you’re plotting a ROC curve to identify the right cut-off threshold for your classification model, don’t forget this **Short Tale of Stats** behind its origin.
+
+
+**Sources:**  
+- [ROC Analysis: Key Statistical Tool for Evaluating Detection Technologies](https://www.ncbi.nlm.nih.gov/books/NBK22319/#:~:text=The%20term%20receiver%20operating%20characteristic,tissue%20against%20a%20complicated%20background)  
+- [Understanding ROC curves](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/7A4E1525284D1249C5A4A05FBFEF80EB/S1481803500013336a.pdf/understanding_receiver_operating_characteristic_roc_curves.pdf)

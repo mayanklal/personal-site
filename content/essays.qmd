@@ -1,9 +1,22 @@
 ---
-title: "**Reveries**"
+title: ""
+pagetitle: "Reveries"
+page-layout: full
+toc: false
+listing:
+  contents: essays
+  type: table
+  sort: order
+  fields: [title, date]
+  categories: false
+  sort-ui: false
+  filter-ui: false
 format:
   html:
     css: 
       - /assets/css/styles_home.css
+      - /assets/css/reveries.css
 ---
-<br>
-Narrative and Numbers.
+::: {.hero-image}
+![](/assets/media/images/reveries.png){.hero-illustration}
+:::

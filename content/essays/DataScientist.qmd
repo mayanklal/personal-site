@@ -1,0 +1,41 @@
+---
+title: "Do you know what a Quant is?"
+order: 1
+pagetitle: "Quant"
+author: Mayank Lal
+date: last-modified
+format:
+  html:
+    css: 
+      - /assets/css/styles_essays.css
+    toc: false
+---
+
+_Do you know what a Quant is?_
+
+<br>
+To find the answer, we need to go back nearly 150 years to a particular moment in Lord Kelvin's class. At that moment, Lord Kelvin was answering a question very similar to ours:
+
+_**"Do you know what a Mathematician is?"**_
+
+Pointing to the integral scribbled on the blackboard, he replied:
+
+_“A mathematician is one to whom the area under the curve of the exponential function raised to the negative x squared equals the square root of pi is as obvious as twice makes two four is to you.”_
+
+For those in any field related to quantitative modeling, we might rephrase it this way:
+
+_"A quant is someone for whom the presence of pi and the exponential function in the normal distirbution formula is as obvious as twice two makes four is to anyone."_
+
+But neither answer is obvious without a deep, meditative understanding of the Gaussian Integral and, by extension, the normal distribution.
+
+This meditative understanding of the proof of the Gaussian Integral can't be achieved by taking nth certification course but by following your own curiosity and asking questions.
+
+On this journey, you’ll discover the historical thread connecting mathematical legends from Laplace to Ramanujan.
+
+You’ll deepen your grasp of probability, statistics, and the very foundations of data science.
+
+You’ll unlock the core of the Black-Scholes Model — a pivotal event that led to the financialization of the American economy.
+
+But most importantly, you’ll realize that sometimes, the solution to an “impossible” problem is found by letting your mind wander down alternative paths or into higher dimensions.
+
+I hope this **Short Tale of Stats** inspires you to begin your own journey to infinity and beyond.

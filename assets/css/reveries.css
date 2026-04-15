@@ -1,0 +1,251 @@
+/* =========================
+   1. Roman Numerals
+========================= */
+.quarto-listing-table tbody {
+  counter-reset: roman;
+}
+
+.quarto-listing-table tbody tr td:first-child::before {
+  counter-increment: roman;
+  content: counter(roman, upper-roman) ". ";
+  margin-right: 0.5rem;
+}
+
+
+/* =========================
+   2. Remove Table Styling
+========================= */
+
+/* Remove table background */
+.quarto-listing-table table {
+  background: transparent !important;
+}
+
+/* Remove all cell backgrounds */
+.quarto-listing-table thead,
+.quarto-listing-table tbody,
+.quarto-listing-table tr,
+.quarto-listing-table td {
+  background: transparent !important;
+}
+
+/* Remove Bootstrap table effects */
+.quarto-listing-table table.table {
+  background-color: transparent !important;
+}
+
+.quarto-listing-table table.table > :not(caption) > * > * {
+  background-color: transparent !important;
+}
+
+.quarto-listing-table table.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: transparent !important;
+}
+
+.quarto-listing-table table.table-hover > tbody > tr:hover {
+  background-color: transparent !important;
+}
+
+
+/* =========================
+   3. Remove Header & Borders
+========================= */
+
+/* Remove "Title" header */
+.quarto-listing-table thead {
+  display: none;
+}
+
+/* Remove borders */
+.quarto-listing-table table,
+.quarto-listing-table tr,
+.quarto-listing-table td {
+  border: none !important;
+}
+
+
+/* =========================
+   4. Typography
+========================= */
+
+/* Make links black */
+.quarto-listing-table a {
+  text-decoration: none;
+}
+
+
+/* =========================
+   5. CRITICAL FIX: Background Image Visibility
+========================= */
+
+/* Make main content transparent so background image shows */
+/* Remove background from listing container */
+.quarto-listing,
+.quarto-listing-container,
+.quarto-listing-table {
+  background: transparent !important;
+}
+
+/* Force remove background from entire listing block */
+.quarto-listing * {
+  background-color: transparent !important;
+}
+
+/* =========================
+   Remove table listing border
+========================= */
+
+/* Remove table borders (moved from inline style) */
+.quarto-listing-table,
+.quarto-listing-table th,
+.quarto-listing-table td {
+  border: none !important;
+}
+
+/* Remove bold from listing titles */
+.quarto-listing-table th {
+  font-weight: 400 !important;
+}
+
+/* Also ensure links inherit it */
+.quarto-listing-table th a {
+  font-weight: 400 !important;
+}
+
+/* Make listing links black */
+.quarto-listing-table a {
+  color: #000 !important;
+  text-decoration: none;
+}
+
+/* Ensure visited links are also black */
+.quarto-listing-table a:visited {
+  color: #000 !important;
+}
+
+/* Optional: subtle hover (clean, book-like) */
+.quarto-listing-table a:hover {
+  color: #000 !important;
+  text-decoration: underline;
+}
+
+/* Subtle section header (book style) */
+h2 {
+  font-size: 1.4rem;          /* smaller */
+  font-weight: 600;           /* not bold */
+  text-align: left;           /* align with list */
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+  letter-spacing: 0.5px;
+  border-bottom: none !important;
+  font-family: "Georgia", serif;
+  color: #333;
+  border-left: none !important;
+  padding-left: 0 !important;
+}
+
+/* Remove anchor link icon next to headers */
+.anchorjs-link {
+  display: none !important;
+}
+
+/* =========================
+   Mobile Optimization
+========================= */
+@media (max-width: 810px) {
+
+  /* Main title */
+  h1 {
+    font-size: 1.8rem !important;
+  }
+
+  /* Section header */
+  h2 {
+    font-size: 1.2rem !important;
+  }
+
+  /* Essay list */
+  .quarto-listing-table {
+    font-size: 1rem !important;
+  }
+
+  /* Roman numerals spacing */
+  .quarto-listing-table td {
+    padding: 0.25rem 0;
+  }
+
+  /* Header image */
+  .hero-illustration {
+    max-width: 90% !important;
+  }
+
+  /* Navigation text */
+  .navbar-nav {
+    font-size: 0.9rem;
+  }
+}
+
+/* Constrain entire page content width */
+main.quarto-document-content {
+  max-width: 825px;
+  margin: 0 auto;
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  box-sizing: border-box;
+}
+
+/* Constrain listing container to match content width */
+.quarto-listing-container-table {
+  max-width: 825px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Ensure table doesn't overflow */
+.quarto-listing-table {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+@media (max-width: 550px) {
+
+  /* Reduce table text */
+  .quarto-listing-table td,
+  .quarto-listing-table a {
+    font-size: 0.8rem !important;
+  }
+
+  /* Optional: slightly tighter */
+  .quarto-listing-table td {
+    padding: 0.2rem 0;
+  }
+}
+
+@media (max-width: 425px) {
+
+  /* Reduce table text */
+  .quarto-listing-table td,
+  .quarto-listing-table a {
+    font-size: 0.7rem !important;
+  }
+
+  /* Optional: slightly tighter */
+  .quarto-listing-table td {
+    padding: 0.2rem 0;
+  }
+}
+
+@media (max-width: 365px) {
+
+  /* Reduce table text */
+  .quarto-listing-table td,
+  .quarto-listing-table a {
+    font-size: 0.5rem !important;
+  }
+
+  /* Optional: slightly tighter */
+  .quarto-listing-table td {
+    padding: 0.2rem 0;
+  }
+}

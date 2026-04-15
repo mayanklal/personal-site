@@ -110,7 +110,7 @@
    ========================================================= */
 
 /* Applies from large phones to tablets */
-@media (max-width: 825px) {
+@media (max-width: 900px) {
 
   /* Container adjustments */
   .navbar,
@@ -541,7 +541,7 @@ footer .nav-footer {
   padding-bottom: 0.5rem !important;
 }
 
-/* Keep main "Powered by Quarto · Mayank Lal © 2025" centered */
+/* Keep main "Powered by Quarto · Mayank Lal © 2026" centered */
 footer .nav-footer .nav-footer-center {
   order: 1 !important;
   width: 100% !important;
@@ -577,7 +577,6 @@ footer .nav-footer .nav-footer-right {
   margin: 0;
   width: auto;
 }
-
 
 /* Center subtitle/title */
 .hero-title {

@@ -1,0 +1,42 @@
+---
+title: "The Eternal Student from Guinness"
+order: 1
+pagetitle: "Student"
+author: Mayank Lal
+date: last-modified
+format:
+  html:
+    css: 
+      - /assets/css/styles_essays.css
+    toc: false
+---
+
+_Did you know the origins of Student's t-test and its name are intricately linked to Guinness, the legendary Irish beer brand?_
+
+<br>
+Neither did I.
+
+But one midsummer night, while watching yet another surrogate ad for Kingfisher Beer on TV, I wondered: Who was the "**Student**" behind the 𝘁-𝘁𝗲𝘀𝘁?
+
+As I searched for the answer, I couldn't believe my eyes that the answer to my question was to be found at the bottom of beer barrels.
+
+I am not kidding. It really lies there. To be exact, it lies at the famous Dublin Brewery of Guinness in 1899.
+
+So, the tale goes that in 1899, **William Sealy Gosset**, a chemist and mathematician, was invited by **Guinness** to join their famed brewery in Dublin, Ireland. The company wanted to leverage his expertise to improve the consistency and quality of their beer. Gosset was enthralled by this unique opportunity to apply his academic knowledge to real-world problems.
+
+But, as every academician eventually discovers, the real world is a totally different beast from academia-and so did Gosset.
+
+He realized that the brewing process didn’t allow for the creation of large batches for quality testing due to cost and practical limitations. His academic toolkit didn't have **statistical methods designed for small datasets** that are typical in brewing quality control.
+
+Faced with this challenge, he decided to leverage his existing toolkit to develop a new statistical method to make **reliable inferences from small samples**. This new method is now known as the Student’s t-test. But why is it called the Student’s t-test and not the Gosset t-test?
+
+It turns out there was a very corporate reason for this: Guinness had strict **confidentiality policies** that prevented Gosset from sharing his findings with the wider scientific community.
+
+But Gosset's commitment to the scientific community was so strong that he took the Promethean path to share his research with the wide world by publishing it under the **pseudonym** “Student.” And that’s how this groundbreaking method came to be known as the  **Student's t-test**.
+
+So next time you’re having a few pints of beer with your friends, share this **Short Tale of Stats** about the brilliant, humble, and altruistic mathematician and chemist, **William Sealy Gosset - the Eternal Student.**
+
+**Sources:**  
+- [Student’s t-test](https://www.britannica.com/science/Students-t-test)  
+- [William Sealy Gosset](https://www.usu.edu/math/schneit/StatsHistory/ModernStatisticians/Gosset)  
+- [Ale and Averages: The Story of the Student's t-Test and Its Brewing Beginnings](https://www.linkedin.com/pulse/ale-averages-story-students-t-test-its-brewing-beginnings-r-imlbc)
